@@ -1,6 +1,7 @@
- static void rvereseArray(int arr[],
-                    int start, int end)
+ static void rvereseArray(int arr[])
     {
+    int start=0;
+  int end = arr.length-1;
         int temp;
           
         while (start < end)
